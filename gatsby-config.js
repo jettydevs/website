@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Klane - Gatsby React Landing Page Templates`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `JettyDevs`,
+    description: `JettyDevs specializes in web & mobile dev. Our experts in Javascript, Node.js & React Native design & implement custom solutions for clients.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },

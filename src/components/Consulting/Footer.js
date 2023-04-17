@@ -6,7 +6,7 @@ import logo from "../../images/logo/logo.png"
 const Footer = () => {
   return (
     <>
-      <div className="agency-footer-area bg-color-f9f5f4 pt-100 pb-70">
+      {/* <div className="agency-footer-area bg-color-f9f5f4 pt-100 pb-70">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-sm-6">
@@ -161,7 +161,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="copy-right-area style4 bg-color-f9f5f4">
         <div className="container">

@@ -53,9 +53,9 @@ const Services = () => {
                   <p>
                     Our React development team creates high-performance and dynamic web applications that deliver unparalleled user experiences.
                   </p>
-                  <Link to="/service-details" className="read-more-2">
+                  {/* <Link to="/service-details" className="read-more-2">
                     Read More <i className="flaticon-right-arrow-1"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </SwiperSlide>
@@ -73,9 +73,9 @@ const Services = () => {
                   <p>
                     Our Node.js developers specialize in building scalable, secure, and high-performing back-end solutions for your web applications.
                   </p>
-                  <Link to="/service-details" className="read-more-2">
+                  {/* <Link to="/service-details" className="read-more-2">
                     Read More <i className="flaticon-right-arrow-1"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </SwiperSlide>
@@ -93,9 +93,9 @@ const Services = () => {
                   <p>
                     Our React Native development team creates cross-platform mobile apps that are fast, efficient, and designed to meet your business needs.
                   </p>
-                  <Link to="/service-details" className="read-more-2">
+                  {/* <Link to="/service-details" className="read-more-2">
                     Read More <i className="flaticon-right-arrow-1"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </SwiperSlide>

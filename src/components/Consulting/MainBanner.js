@@ -46,16 +46,8 @@ const MainBanner = () => {
                 data-aos-delay="400"
                 data-aos-once="true"
               >
-                <img src={quoteImg} alt="Image" />
+                <img style={{ padding: '100px' }} src={quoteImg} alt="Image" />
 
-                <div className="careear">
-                  <div className="content">
-                    <div className="icon">
-                      <i className="flaticon-idea"></i>
-                    </div>
-                    <p>Transform Your Digital Presence with Our Web Development Services</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

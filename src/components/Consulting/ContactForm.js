@@ -1,6 +1,13 @@
 import * as React from "react"
 
 const ContactForm = () => {
+  const onSubmit = (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'https://script.google.com/macros/s/AKfycbyJEn7Yob-SfDAVq7swgkJVHfjsGULCBKSAhgiNaLmb8oN55Xtr1o62BC0mGgtWdpM2Fg/exec', true);
+    xhr.send(formData);
+  }
   return (
     <>
       <div id="contact" className="ptb-100 bg-f7f7f7">
@@ -12,12 +19,13 @@ const ContactForm = () => {
  
           <div className="row justify-content-center">
             <div className="col-lg-10">
-              <div className="contact_form" onSubmit={e => e.preventDefault()}>
+              <div className="contact_form" onSubmit={onSubmit}>
                 <form>
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="mb-4">
                         <input
+                          name="name"
                           type="text"
                           className="form-control"
                           placeholder="Your Name"
@@ -29,6 +37,7 @@ const ContactForm = () => {
                     <div className="col-lg-6">
                       <div className="mb-4">
                         <input
+                          name="email"
                           type="email"
                           className="form-control"
                           placeholder="Your Email"
@@ -40,6 +49,7 @@ const ContactForm = () => {
                     <div className="col-lg-6">
                       <div className="mb-4">
                         <input
+                          name="phone"
                           type="number"
                           className="form-control"
                           placeholder="Phone Number"
@@ -51,6 +61,7 @@ const ContactForm = () => {
                     <div className="col-lg-6">
                       <div className="mb-4">
                         <input
+                          name="subject"
                           type="text"
                           className="form-control"
                           placeholder="Subject"
@@ -62,6 +73,7 @@ const ContactForm = () => {
                     <div className="col-lg-12">
                       <div className="mb-4">
                         <textarea 
+                          name="message"
                           className="form-control"
                           rows="5"
                           placeholder="Your Message..."

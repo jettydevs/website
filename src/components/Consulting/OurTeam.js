@@ -30,7 +30,7 @@ const OurTeam = () => {
                 </div>
                 <div className="social-links">
                   <ul>
-                    <li>
+                    {/* <li>
                       <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
                         <i className="flaticon-facebook-1"></i>
                       </a>
@@ -44,9 +44,9 @@ const OurTeam = () => {
                       <a href="https://google.com" target="_blank" rel="noreferrer">
                         <i className="flaticon-google-plus"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="https://linkedin.com/?lang=en" target="_blank" rel="noreferrer">
+                      <a href="https://www.linkedin.com/in/wzalazar/" target="_blank" rel="noreferrer">
                         <i className="flaticon-linkedin-1"></i>
                       </a>
                     </li>
@@ -70,7 +70,7 @@ const OurTeam = () => {
                 </div>
                 <div className="social-links">
                   <ul>
-                    <li>
+                    {/* <li>
                       <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
                         <i className="flaticon-facebook-1"></i>
                       </a>
@@ -84,9 +84,9 @@ const OurTeam = () => {
                       <a href="https://google.com" target="_blank" rel="noreferrer">
                         <i className="flaticon-google-plus"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="https://linkedin.com/?lang=en" target="_blank" rel="noreferrer">
+                      <a href="https://www.linkedin.com/in/jose-luis-casella-b48b0a108/" target="_blank" rel="noreferrer">
                         <i className="flaticon-linkedin-1"></i>
                       </a>
                     </li>

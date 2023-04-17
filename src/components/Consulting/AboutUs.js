@@ -28,7 +28,7 @@ const AboutUs = () => {
                 <div className="customer">
                   <div className="customer-content">
                     <img src={smileIcon} alt="Image" />
-                    <h1>+560</h1>
+                    <h1>+56</h1>
                     <p>Happy Customer</p>
                   </div>
                 </div>

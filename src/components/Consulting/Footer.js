@@ -15,9 +15,7 @@ const Footer = () => {
                   <img src={logo} className="logo-1" alt="Image" />
                 </Link>
                 <p>
-                  Duis cursus, mi quis viverra ornare, eros dolor interdum nulla
-                  utimp erdiet commodo diam libero vitae nibh et jus cursus id
-                  rutrum lore imperdiet ut sem vitae risus tristique posuere{" "}
+                We are dedicated to providing high-quality and innovative web development solutions to help businesses succeed."
                 </p>
 
                 <div className="social-links">
@@ -168,14 +166,7 @@ const Footer = () => {
       <div className="copy-right-area style4 bg-color-f9f5f4">
         <div className="container">
           <p>
-            © Klane is Proudly Owned by{" "}
-            <a
-              href="https://hibotheme.com/"
-              target="_blank" 
-              rel="noreferrer"
-            >
-              HiboTheme
-            </a>
+            ©JettyDevs - 2023
           </p>
         </div>
       </div>

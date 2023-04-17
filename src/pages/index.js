@@ -20,7 +20,7 @@ import ContactForm from "../components/Consulting/ContactForm"
 const Consulting = () => {
   return (
     <Layout>
-      
+
 
       <Seo title="Consulting" />
 
@@ -36,19 +36,9 @@ const Consulting = () => {
 
       <Services />
 
-      <WhyChooseUs />
-
-      <RecentProjects />
-
-      <GetAQuote />
-
       <OurTeam />
 
-      <Testimonials />
-
       <Newsletter />
-
-      <LatestArticles />
 
       <ContactForm />
 

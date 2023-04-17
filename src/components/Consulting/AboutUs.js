@@ -48,10 +48,7 @@ const AboutUs = () => {
                   <h2>We Combine Technology With Business Ideas</h2>
                 </div>
                 <p>
-                  Facilisis vestibulum aliquet vulputate ut pretium. className
-                  luctus torquent amet bibendum quisque himenaeos. Parturient
-                  malesuada dui accumsan monte tempor augue curae amet per
-                  pretium. className luctus torque.
+                At JettyDevs, we believe in bridging the gap between technology and business by leveraging our expertise in software development and business strategy. We are a team of dedicated professionals committed to delivering innovative solutions that help our clients achieve their goals. With a focus on quality and customer satisfaction, we strive to create lasting partnerships that drive business success.
                 </p>
 
                 <div className="about-profile">
@@ -61,18 +58,18 @@ const AboutUs = () => {
                       alt="Image"
                     />
                   </div>
-                  <h3>Ahel Natasha</h3>
-                  <p>Chairman & Founder Klane</p>
+                  <h3>Walter Zalazar</h3>
+                  <p>Co-Founder JettyDevs</p>
                 </div>
 
-                <Link to="/about-us" className="consulting-default-btn btn">
+                {/* <Link to="/about-us" className="consulting-default-btn btn">
                   Discover More <i className="flaticon-right-arrow-3"></i>
                 </Link>
 
                 <Link to="#team" className="download-btn">
                   Download Our Latest Presentation{" "}
                   <i className="flaticon-downloading"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

@@ -2,6 +2,8 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import bannerMainImg from "../../images/banner/banner-img-4.png"
+
+import quoteImg from "../../images/quote-img.png"
 import bannerBGImg from "../../images/banner/banner-bg-3.png"
 import shape30 from "../../images/shape/shape-30.png"
 import shape31 from "../../images/shape/shape-31.png"
@@ -24,22 +26,14 @@ const MainBanner = () => {
               data-aos-once="true"
             >
               <div className="consulting-banner-content">
-                <span>Solution For Incredible Business</span>
+                <span>Expert Developers for Your Digital Projects</span>
 
-                <h1>Success Defined In A Different Way</h1>
+                <h1>Designing Solutions that Drive Success</h1>
 
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod ut labore et dolore magna aliqua. Ut enim ad minim
-                  venia mquis conse ctetur adipisc.
-                </p>
+                <p>Our goal is to help you achieve your digital objectives with high-quality software solutions that are scalable, flexible and reliable. Partner with JettyDevs and unlock your full potential in the digital world.</p>
 
                 <Link to="#contact" className="consulting-default-btn btn mr-20">
-                  Get Started <i className="flaticon-right-arrow-3"></i>
-                </Link>
-
-                <Link to="#" className="join-us-btn">
-                  <i className="flaticon-paper-plane"></i> Join Us On Telegram
+                  Let's Build Your Next Big Thing <i className="flaticon-right-arrow-3"></i>
                 </Link>
               </div>
             </div>
@@ -52,51 +46,16 @@ const MainBanner = () => {
                 data-aos-delay="400"
                 data-aos-once="true"
               >
-                <img src={bannerMainImg} alt="Image" />
-
-                <div className="month-stars">
-                  <ul className="list1 d-flex justify-content-between">
-                    <li>Month</li>
-                    <li>Stars</li>
-                  </ul>
-
-                  <ul className="list2 d-flex justify-content-between">
-                    <li>+3.2%</li>
-                    <li>$827</li>
-                  </ul>
-
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: '25%' }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
+                <img src={quoteImg} alt="Image" />
 
                 <div className="careear">
                   <div className="content">
                     <div className="icon">
                       <i className="flaticon-idea"></i>
                     </div>
-                    <p>Expand Your Career Opportunities with Our Coaching</p>
+                    <p>Transform Your Digital Presence with Our Web Development Services</p>
                   </div>
                 </div>
-                
-                {/* Shape Images */}
-                <img
-                  src={shape30}
-                  className="banner-shape-1"
-                  alt="Image"
-                />
-                <img
-                  src={shape31}
-                  className="banner-shape-2"
-                  alt="Image"
-                />
               </div>
             </div>
           </div>

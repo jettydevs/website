@@ -96,17 +96,6 @@ const Navbar = () => {
                   Services
                 </Link>
               </li>
-
-              <li className="nav-item">
-                <Link
-                  to="#portfolio"
-                  activeClassName="active"
-                  onClick={toggleNavbar}
-                  className="nav-link"
-                >
-                  Portfolio
-                </Link>
-              </li>
   
               <li className="nav-item">
                 <Link
@@ -116,17 +105,6 @@ const Navbar = () => {
                   className="nav-link"
                 >
                   Team
-                </Link>
-              </li>
-
-              <li className="nav-item">
-                <Link
-                  to="#blog"
-                  activeClassName="active"
-                  onClick={toggleNavbar}
-                  className="nav-link"
-                >
-                  Blog
                 </Link>
               </li>
             </ul>

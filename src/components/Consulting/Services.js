@@ -49,9 +49,9 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="services-content">
-                  <h3>Strategy Management</h3>
+                  <h3>Cutting-edge React Development Solutions</h3>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                    Our React development team creates high-performance and dynamic web applications that deliver unparalleled user experiences.
                   </p>
                   <Link to="/service-details" className="read-more-2">
                     Read More <i className="flaticon-right-arrow-1"></i>
@@ -69,9 +69,9 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="services-content">
-                  <h3>Business Analysis</h3>
+                  <h3>Custom Node.js Development for Your Business Needs</h3>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                    Our Node.js developers specialize in building scalable, secure, and high-performing back-end solutions for your web applications.
                   </p>
                   <Link to="/service-details" className="read-more-2">
                     Read More <i className="flaticon-right-arrow-1"></i>
@@ -89,9 +89,9 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="services-content">
-                  <h3>Content Management</h3>
+                  <h3>Expert React Native Development for Mobile Apps</h3>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                    Our React Native development team creates cross-platform mobile apps that are fast, efficient, and designed to meet your business needs.
                   </p>
                   <Link to="/service-details" className="read-more-2">
                     Read More <i className="flaticon-right-arrow-1"></i>
@@ -100,25 +100,6 @@ const Services = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
-              <div className="consulting-services-card">
-                <div className="services-img">
-                  <img src={serviceImg2} alt="Image" />
-                  <div className="icon">
-                    <i className="flaticon-analysis"></i>
-                  </div>
-                </div>
-                <div className="services-content">
-                  <h3>Business Analysis</h3>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-                  </p>
-                  <Link to="/service-details" className="read-more-2">
-                    Read More <i className="flaticon-right-arrow-1"></i>
-                  </Link>
-                </div>
-              </div>
-            </SwiperSlide>
           </Swiper>
         </div>
       </div>

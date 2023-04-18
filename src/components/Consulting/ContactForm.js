@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react"
 
 const ContactForm = () => {
   const [isLoading, setIsLoading] = useState();
-  const [isError, setIsError] = useState(true);
-  const [isSuccess, setIsSuccess] = useState();
+  const [isError, setIsError] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
   const isDisabled = isLoading || isError || isSuccess;
 
   useEffect(() => {

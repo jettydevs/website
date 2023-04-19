@@ -77,12 +77,12 @@ const Navbar = () => {
 
               <li className="nav-item">
                 <Link
-                  to="#about"
+                  to="#what-we-do"
                   activeClassName="active"
                   onClick={toggleNavbar}
                   className="nav-link"
                 >
-                  About Us
+                  What We Do
                 </Link>
               </li>
 
@@ -99,12 +99,12 @@ const Navbar = () => {
   
               <li className="nav-item">
                 <Link
-                  to="#team"
+                  to="#about-us"
                   activeClassName="active"
                   onClick={toggleNavbar}
                   className="nav-link"
                 >
-                  Team
+                  About Us
                 </Link>
               </li>
             </ul>

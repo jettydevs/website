@@ -13,7 +13,7 @@ const AboutUs = () => {
   return (
     <>
       <div 
-        id="about" 
+        id="what-we-do" 
         className="consulting-about-area bg-color-f9f5f4 ptb-100"
       >
         <div className="container">
@@ -44,7 +44,7 @@ const AboutUs = () => {
             <div className="col-lg-6">
               <div className="consulting-about-content pl-20">
                 <div className="consulting-about-title">
-                  <span>ABOUT US</span>
+                  <span>WHAT WE DO</span>
                   <h2>We Combine Technology With Business Ideas</h2>
                 </div>
                 <p>

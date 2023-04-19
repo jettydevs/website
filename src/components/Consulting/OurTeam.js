@@ -6,10 +6,10 @@ import jose from "../../images/team/jose.png"
 const OurTeam = () => {
   return (
     <>
-      <div id="team" className="consulting-team-area bg-color-f9f5f4 ptb-100">
+      <div id="about-us" className="consulting-team-area bg-color-f9f5f4 ptb-100">
         <div className="container">
           <div className="consulting-section-title">
-            <span>Our Team</span>
+            <span>ABOUT US</span>
             <h2>Meet Our Co-Founders</h2>
           </div>
 

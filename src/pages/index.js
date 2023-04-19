@@ -20,30 +20,17 @@ import ContactForm from "../components/Consulting/ContactForm"
 const Consulting = () => {
   return (
     <Layout>
-
-
       <Seo title="Consulting" />
-
       <Navbar />
-
       <MainBanner />
-
       <Partner />
-
       <Features />
-
       <AboutUs />
-
       <Services />
-
       <OurTeam />
-
       <Newsletter />
-
       <ContactForm />
-
       <Footer />
-
     </Layout>
   )
 }

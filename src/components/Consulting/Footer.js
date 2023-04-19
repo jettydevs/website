@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import logo from "../../images/logo/logo.png"
+import logo from "../../images/logo/logo.svg"
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="logo-area style3">
                 <Link to="/consulting">
-                  <img src={logo} className="logo-1" alt="Image" />
+                  <img src={logo} className="logo-1" alt="Image" style={{ height: '40px', marginBottom: '13px' }}/>
                 </Link>
                 <p>
                 We are dedicated to providing high-quality and innovative web development solutions to help businesses succeed."
@@ -22,7 +22,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="https://www.twitter.com"
+                        href="https://twitter.com/jettydevs"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -61,9 +61,9 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-5 col-sm-12">
+            <div className="col-lg-2 col-sm-6">
               <div className="footer-widjet style3">
-                <h3>Useful Links</h3>
+                <h3>Company </h3>
                 <div className="link-list">
                   <ul>
                     <li>
@@ -86,26 +86,11 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-3 col-sm-6">
               <div className="footer-widjet style3 pl-20">
-                <h3>Company</h3>
+                <h3>Useful Links</h3>
                 <div className="link-list">
                   <ul>
-                    <li>
-                      <Link to="#features">
-                        <i className="flaticon-next"></i>Features
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/blog">
-                        <i className="flaticon-next"></i>Blog
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="#testimonials">
-                        <i className="flaticon-next"></i>Testimonials
-                      </Link>
-                    </li>
                     <li>
                       <Link to="/terms-conditions">
                         <i className="flaticon-next"></i>Terms & Conditions
@@ -119,7 +104,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-            </div> */}
+            </div>
 
             <div className="col-lg-3 col-sm-6">
               <div className="get-in-touch style3">
@@ -131,15 +116,9 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:support@Klane.com">
+                    <a href="mailto:hi@jettydevs.com">
                       {" "}
-                      <i className="flaticon-email"></i> support@klane.com
-                    </a>
-                  </li>
-                  <li>
-                    <a href="mailto:contact@Klane.com">
-                      {" "}
-                      <i className="flaticon-email"></i> contact@klane.com
+                      <i className="flaticon-email"></i> hi@jettydevs.com
                     </a>
                   </li>
                   <li>
@@ -156,7 +135,7 @@ const Footer = () => {
       <div className="copy-right-area style4 bg-color-f9f5f4">
         <div className="container">
           <p>
-            ©JettyDevs - 2023
+            ©JettyDevs LLC - 2023
           </p>
         </div>
       </div>

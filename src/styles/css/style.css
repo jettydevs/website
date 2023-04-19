@@ -5322,6 +5322,9 @@ Go To Top Style
   border-radius: 10px;
   transition: all ease 0.5s;
 }
+.consulting-team-card:hover::before {
+  opacity: 0;
+}
 .consulting-team-card:hover .team-content::before {
   background-color: #3561e4;
 }

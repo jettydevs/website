@@ -11,7 +11,7 @@ const AboutUs = () => {
   return (
     <Layout>
 
-      <Seo title="About Us" />
+      <Seo title="What We Do" />
 
       <Navbar />
 

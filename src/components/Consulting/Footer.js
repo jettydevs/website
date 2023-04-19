@@ -6,7 +6,7 @@ import logo from "../../images/logo/logo.png"
 const Footer = () => {
   return (
     <>
-      {/* <div className="agency-footer-area bg-color-f9f5f4 pt-100 pb-70">
+      <div className="agency-footer-area bg-color-f9f5f4 pt-100 pb-70">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-sm-6">
@@ -22,15 +22,6 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="https://www.facebook.com"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="flaticon-facebook-1"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
                         href="https://www.twitter.com"
                         target="_blank"
                         rel="noreferrer"
@@ -40,40 +31,44 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="https://google.com"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="flaticon-google-plus"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://linkedin.com/?lang=en"
+                        href="https://www.linkedin.com/company/jettydevs"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <i className="flaticon-linkedin-1"></i>
                       </a>
                     </li>
+                    {/* <li>
+                      <a
+                        href="https://google.com"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="flaticon-google-plus"></i>
+                      </a>
+                    </li> */}
+                    {/* <li>
+                      <a
+                        href="https://www.facebook.com"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="flaticon-facebook-1"></i>
+                      </a>
+                    </li> */}
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-2 col-sm-6">
+            <div className="col-lg-5 col-sm-12">
               <div className="footer-widjet style3">
-                <h3>Company</h3>
+                <h3>Useful Links</h3>
                 <div className="link-list">
                   <ul>
                     <li>
-                      <Link to="/about-us">
-                        <i className="flaticon-next"></i>About Us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/contact">
-                        <i className="flaticon-next"></i>Contact Us
+                      <Link to="/what-we-do">
+                        <i className="flaticon-next"></i>What We Do
                       </Link>
                     </li>
                     <li>
@@ -83,12 +78,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link to="/team">
-                        <i className="flaticon-next"></i>Our Team
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/projects">
-                        <i className="flaticon-next"></i>Projects
+                        <i className="flaticon-next"></i>About Us
                       </Link>
                     </li>
                   </ul>
@@ -96,9 +86,9 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="footer-widjet style3 pl-20">
-                <h3>Useful Links</h3>
+                <h3>Company</h3>
                 <div className="link-list">
                   <ul>
                     <li>
@@ -129,7 +119,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-3 col-sm-6">
               <div className="get-in-touch style3">
@@ -161,7 +151,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="copy-right-area style4 bg-color-f9f5f4">
         <div className="container">

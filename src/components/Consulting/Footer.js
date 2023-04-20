@@ -2,6 +2,8 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import logo from "../../images/logo/logo.svg"
+import AngelListIcon from "./assets/AngelListIcon"
+import CrunchbaseIcon from "./assets/CrunchbaseIcon"
 
 const Footer = () => {
   return (
@@ -38,24 +40,24 @@ const Footer = () => {
                         <i className="flaticon-linkedin-1"></i>
                       </a>
                     </li>
-                    {/* <li>
+                    <li>
                       <a
-                        href="https://google.com"
+                        href="https://www.crunchbase.com"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i className="flaticon-google-plus"></i>
+                        <CrunchbaseIcon />
                       </a>
-                    </li> */}
-                    {/* <li>
+                    </li>
+                    <li>
                       <a
-                        href="https://www.facebook.com"
+                        href="https://www.angellist.com"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i className="flaticon-facebook-1"></i>
+                        <AngelListIcon />
                       </a>
-                    </li> */}
+                    </li>
                   </ul>
                 </div>
               </div>

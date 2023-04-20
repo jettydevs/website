@@ -2370,11 +2370,16 @@ button {
   font-size: 15px;
   transition: all ease 0.5s;
   text-decoration: none;
+  fill: #0d6efd;
 }
 .logo-area .social-links ul li a:hover {
   background-color: #0797ff;
   color: #ffffff;
   transform: translateY(-5px);
+}
+.logo-area .social-links ul li a:hover svg {
+  stroke: #ffffff;
+  fill: #ffffff;
 }
 .logo-area.style2 .social-links ul li a {
   color: #555555;

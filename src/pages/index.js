@@ -21,6 +21,7 @@ const Consulting = () => {
   return (
     <Layout>
       <Seo title="Consulting" />
+
       <Navbar />
       <MainBanner />
       <Partner />

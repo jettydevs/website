@@ -32,7 +32,7 @@ const Navbar = () => {
     <>
       <nav id="navbar" className="navbar navbar-expand-md navbar-light nav-style3">
         <div className="container-fluid">
-          <Link to="/consulting" onClick={toggleNavbar} className="navbar-brand">
+          <Link to="/" onClick={toggleNavbar} className="navbar-brand">
             <img style={{ height: '50px' }} src={logo} alt="Logo" />
           </Link>
 
@@ -86,7 +86,7 @@ const Navbar = () => {
   
               <li className="nav-item">
                 <Link
-                  to="/team"
+                  to="/about-us"
                   activeClassName="active"
                   className="nav-link"
                 >

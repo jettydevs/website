@@ -781,15 +781,15 @@ button {
   color: #00a9a4 !important;
 }
 .navbar-light.nav-style11 {
-  background-color: transparent;
+  background-color: #ffffff;
 }
 .navbar-light.nav-style11 .others-options a {
-  background-color: #0797ff;
+  background-color: #6064e3;
   color: #ffffff;
   transition: all ease 0.5s;
 }
 .navbar-light.nav-style11 .others-options a:hover {
-  background-color: #19191b;
+  background-color: #0797ff;
   color: #ffffff;
 }
 .navbar-light.nav-style11 .navbar-nav .nav-item .nav-link {
@@ -797,9 +797,6 @@ button {
 }
 .navbar-light.nav-style11 .navbar-nav .nav-item .nav-link:hover, .navbar-light.nav-style11 .navbar-nav .nav-item .nav-link:focus, .navbar-light.nav-style11 .navbar-nav .nav-item .nav-link.active {
   color: #0797ff;
-}
-.navbar-light.nav-style11.is-sticky {
-  background-color: #191919 !important;
 }
 .navbar-light.nav-style11.is-sticky .nav-item .nav-link {
   color: #ffffff !important;

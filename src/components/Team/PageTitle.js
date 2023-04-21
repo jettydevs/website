@@ -12,12 +12,12 @@ const PageTitle = () => {
       >
         <div className="container">
           <div className="page-banner-content text-center">
-            <h1>Team</h1>
+            <h1>About Us</h1>
             <ul>
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li>Team</li>
+              <li>About Us</li>
             </ul>
           </div>
         </div>

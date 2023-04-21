@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="logo-area style3">
-                <Link to="/consulting">
+                <Link to="/">
                   <img src={logo} className="logo-1" alt="Image" style={{ height: '40px', marginBottom: '13px' }}/>
                 </Link>
                 <p>
@@ -79,7 +79,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/team">
+                      <Link to="/about-us">
                         <i className="flaticon-next"></i>About Us
                       </Link>
                     </li>

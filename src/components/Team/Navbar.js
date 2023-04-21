@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import logo from "../../images/logo/white-logo.png"
+import logo from "../../images/logo/logo.svg"
 
 const Navbar = () => {
 
@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav id="navbar" className="navbar navbar-expand-md navbar-light nav-style11">
         <div className="container position-relative">
           <Link to="/" className="navbar-brand">
-            <img src={logo} alt="Logo" />
+            <img style={{ height: '50px' }} src={logo} alt="Logo" />
           </Link>
 
           <div className="others-options d-flex align-items-center right-15">

@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import walter from "../../images/team/team-8.jpg"
+import walter from "../../images/team/walter.png"
 import jose from "../../images/team/jose.png"
 
 const OurTeam = () => {
@@ -22,7 +22,7 @@ const OurTeam = () => {
               data-aos-once="true"
             >
               <div className="consulting-team-card">
-                <img src={walter} alt="Image" />
+                <img src={walter} alt="Walter" />
                 <div className="team-content">
                   <h3>Walter Zalazar</h3>
                   <p>Co-Founder</p>
@@ -62,7 +62,7 @@ const OurTeam = () => {
               data-aos-once="true"
             >
               <div className="consulting-team-card">
-                <img src={jose} alt="Image" />
+                <img src={jose} alt="Jose" />
                 <div className="team-content">
                   <h3>José Casella</h3>
                   <p>Co-Founder</p>

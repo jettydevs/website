@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import aboutImg from "../../images/about/about-img-2.jpg"
 import smileIcon from "../../images/svg-icon/icon-4.png"
-import aboutImg3 from "../../images/about/about-img-3.png"
+import walterMini from "../../images/about/walter-mini.png"
 
 import shape1 from "../../images/about/about-shape-1.png"
 import shape2 from "../../images/about/about-shape-2.png"
@@ -54,7 +54,7 @@ const AboutUs = () => {
                 <div className="about-profile">
                   <div className="img">
                     <img
-                      src={aboutImg3}
+                      src={walterMini}
                       alt="Image"
                     />
                   </div>

@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import pageTitleBgImg from "../../images/page-title-bg3.jpg"
+import pageTitleBgImg from "../../images/page-title-bg2.jpg"
 
 const PageTitle = () => {
   return (

@@ -10,7 +10,7 @@ const Team = () => {
   return (
     <Layout>
 
-      <Seo title="Team" />
+      <Seo title="About Us" />
 
       <Navbar />
 

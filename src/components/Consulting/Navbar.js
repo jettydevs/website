@@ -55,7 +55,7 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <Link
-                  to="#home"
+                  to="/"
                   activeClassName="active"
                   onClick={toggleNavbar}
                   className="nav-link"

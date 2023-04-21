@@ -20,7 +20,7 @@ import ContactForm from "../components/Consulting/ContactForm"
 const Consulting = () => {
   return (
     <Layout>
-      <Seo title="Consulting" />
+      <Seo title="Software Development Agency"  />
 
       <Navbar />
       <MainBanner />

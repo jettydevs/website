@@ -17,7 +17,7 @@ const Footer = () => {
                   <img src={logo} className="logo-1" alt="Image" style={{ height: '40px', marginBottom: '13px' }}/>
                 </Link>
                 <p>
-                We are dedicated to providing high-quality and innovative web development solutions to help businesses succeed."
+                We are dedicated to providing high-quality and innovative web development solutions to help businesses succeed
                 </p>
 
                 <div className="social-links">

@@ -7,29 +7,6 @@ const ServicesItems = () => {
       <div id="services" className="solution-area pt-100 pb-70">
         <div className="container">
           <div className="row justify-content-center">
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="200" 
-              data-aos-once="true"
-            >
-              <div className="sass-solution-single-card">
-                <div className="solution-content">
-                  <div className="icon">
-                    <i className="flaticon-editing"></i>
-                  </div>
-                  <h3>Easy Editable</h3>
-                  <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
-                  </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
-                </div>
-              </div>
-            </div>
 
             <div
               className="col-lg-4 col-md-6"
@@ -45,40 +22,11 @@ const ServicesItems = () => {
                   </div>
                   <h3>Fully Responsive</h3>
                   <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
+                  Design and development of websites and web applications that work seamlessly on any device
                   </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
                 </div>
               </div>
             </div>
-
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="600"
-              data-aos-once="true"
-            >
-              <div className="sass-solution-single-card">
-                <div className="solution-content">
-                  <div className="icon">
-                    <i className="flaticon-file"></i>
-                  </div>
-                  <h3>Well Documentation</h3>
-                  <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
-                  </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
-                </div>
-              </div>
-            </div>
-
             <div
               className="col-lg-4 col-md-6"
               data-aos="fade-up"
@@ -93,63 +41,12 @@ const ServicesItems = () => {
                   </div>
                   <h3>Server Solutions</h3>
                   <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
+                  Setup, configuration and maintenance of AWS servers for reliable and scalable hosting
                   </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
                 </div>
               </div>
             </div>
 
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="400"
-              data-aos-once="true"
-            >
-              <div className="sass-solution-single-card">
-                <div className="solution-content">
-                  <div className="icon">
-                    <i className="flaticon-lightbulb"></i>
-                  </div>
-                  <h3>Creative Design</h3>
-                  <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
-                  </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="600"
-              data-aos-once="true"
-            >
-              <div className="sass-solution-single-card">
-                <div className="solution-content">
-                  <div className="icon">
-                    <i className="flaticon-fast-delivery"></i>
-                  </div>
-                  <h3>Quick Linkup</h3>
-                  <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
-                  </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
-                </div>
-              </div>
-            </div>
  
             <div
               className="col-lg-4 col-md-6"
@@ -163,14 +60,10 @@ const ServicesItems = () => {
                   <div className="icon">
                     <i className="ri-window-line"></i>
                   </div>
-                  <h3>Business Consultancy</h3>
+                  <h3>Consultancy</h3>
                   <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
+                  Professional guidance and advice on software development, technology solutions
                   </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
                 </div>
               </div>
             </div>
@@ -189,39 +82,13 @@ const ServicesItems = () => {
                   </div>
                   <h3>Web Development</h3>
                   <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
+                  Custom web application development using modern Javascript
                   </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
                 </div>
               </div>
             </div>
 
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="600"
-              data-aos-once="true"
-            >
-              <div className="sass-solution-single-card">
-                <div className="solution-content">
-                  <div className="icon">
-                    <i className="ri-sun-line"></i>
-                  </div>
-                  <h3>Digital Marketing</h3>
-                  <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
-                  </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
-                </div>
-              </div>
-            </div>
+       
  
             <div
               className="col-lg-4 col-md-6"
@@ -237,12 +104,8 @@ const ServicesItems = () => {
                   </div>
                   <h3>Mobile App Development</h3>
                   <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
+                  Custom mobile app development for iOS and Android platforms using React Native
                   </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
                 </div>
               </div>
             </div>
@@ -261,39 +124,12 @@ const ServicesItems = () => {
                   </div>
                   <h3>eCommerce Development</h3>
                   <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
+                  Custom development of eCommerce platforms with modern and secure payment solutions
                   </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
                 </div>
               </div>
             </div>
 
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="600"
-              data-aos-once="true"
-            >
-              <div className="sass-solution-single-card">
-                <div className="solution-content">
-                  <div className="icon">
-                    <i className="ri-user-follow-line"></i>
-                  </div>
-                  <h3>Social Marketing</h3>
-                  <p>
-                    Duis cursus, mi quis viverra ornare eros dolor interdum
-                    nulla
-                  </p>
-                  <Link to="/service-details" className="learn-more">
-                    Learn More
-                  </Link>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

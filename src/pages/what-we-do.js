@@ -18,8 +18,6 @@ const AboutUs = () => {
       <PageTitle />
 
       <AboutContent />
-
-      <FunFacts />
     
       <Footer />
 

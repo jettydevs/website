@@ -997,6 +997,9 @@ $transition: all ease .5s;
         }
     }
     .consulting-banner-image {
+        img {
+            padding: 20px !important;
+        }
         .careear {
             .content {
                 display: none;

@@ -21,6 +21,7 @@ const Consulting = () => {
   return (
     <Layout>
       <Seo title="Software Development Agency"  />
+
       <Navbar />
       <MainBanner />
       <Partner />

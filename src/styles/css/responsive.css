@@ -672,6 +672,9 @@
   .consulting-banner-content .join-us-btn i {
     padding-right: 5px;
   }
+  .consulting-banner-image img {
+    padding: 20px !important;
+  }
   .consulting-banner-image .careear .content {
     display: none;
   }

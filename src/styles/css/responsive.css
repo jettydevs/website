@@ -672,6 +672,9 @@
   .consulting-banner-content .join-us-btn i {
     padding-right: 5px;
   }
+  .consulting-banner-image img {
+    padding: 20px !important;
+  }
   .consulting-banner-image .careear .content {
     display: none;
   }
@@ -5458,7 +5461,6 @@
   }
   .navbar .others-options {
     position: absolute;
-    top: 5px;
     right: 60px;
   }
   .navbar .others-options a {
@@ -5600,8 +5602,11 @@
     top: 2px;
     left: 7px;
   }
-  .navbar-light.nav-style11 .navbar-brand {
-    max-width: 130px;
+  .navbar.navbar-expand-md.navbar-light .navbar-brand {
+    max-width: 175px;
+  }
+  .navbar-light.nav-style13 .navbar-brand {
+    max-width: 175px;
   }
   .navbar-light.nav-style11 .others-options {
     background-color: transparent;

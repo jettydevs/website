@@ -2,14 +2,14 @@ import * as React from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay } from "swiper";
 
-import partnerImg1 from "../../images/partner/partner1.png"
-import partnerImg2 from "../../images/partner/partner2.png"
-import partnerImg3 from "../../images/partner/partner3.png"
-import partnerImg4 from "../../images/partner/partner4.png"
-import partnerImg5 from "../../images/partner/partner5.png"
-import partnerImg6 from "../../images/partner/partner6.png"
-import partnerImg7 from "../../images/partner/partner7.png"
-import partnerImg8 from "../../images/partner/partner8.png"
+import javascript from "../../images/technologies/javascript.svg"
+import html5 from "../../images/technologies/html5.svg"
+import css from "../../images/technologies/css.svg"
+import react from "../../images/technologies/reactjs.svg"
+import graphql from "../../images/technologies/graphql.svg"
+import node from "../../images/technologies/nodejs.svg"
+import aws from "../../images/technologies/aws.svg"
+import docker from "../../images/technologies/docker.svg"
 
 const Partner = () => {
   return (
@@ -44,49 +44,49 @@ const Partner = () => {
           >
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg1} alt="Image" />
+                <img src={javascript} alt="Javascript" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg2} alt="Image" />
+                <img src={html5} alt="HTML 5" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg3} alt="Image" />
+                <img src={css} alt="CSS" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg4} alt="Image" />
+                <img src={react} alt="React" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg5} alt="Image" />
+                <img src={graphql} alt="GraphQL" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg6} alt="Image" />
+                <img src={node} alt="Node" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg7} alt="Image" />
+                <img src={aws} alt="AWS" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg8} alt="Image" />
+                <img src={docker} alt="Docker" />
               </div>
             </SwiperSlide>
           </Swiper>

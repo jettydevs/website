@@ -8,6 +8,7 @@
     "aos": "^2.3.4",
     "fslightbox-react": "^1.7.2",
     "gatsby": "^5.8.1",
+    "gatsby-plugin-google-analytics": "^5.9.0",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-manifest": "^5.8.0",
     "gatsby-plugin-sharp": "^5.8.1",

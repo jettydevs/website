@@ -997,6 +997,9 @@ $transition: all ease .5s;
         }
     }
     .consulting-banner-image {
+        img {
+            padding: 20px !important;
+        }
         .careear {
             .content {
                 display: none;
@@ -8040,7 +8043,6 @@ $transition: all ease .5s;
         }
         .others-options {
             position: absolute;
-            top: 5px;
             right: 60px;
             a {
                 padding: 7px 10px;
@@ -8247,7 +8249,7 @@ $transition: all ease .5s;
                 }
             }
             .navbar-brand {
-                max-width: 130px;
+                max-width: 175px;
             }
             .others-options {
                 background-color: transparent;

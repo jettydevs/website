@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import logo from "../../images/logo/logo.png"
+import logo from "../../images/logo/logo.svg"
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true)
@@ -32,8 +32,8 @@ const Navbar = () => {
     <>
       <nav id="navbar" className="navbar navbar-expand-md navbar-light nav-style3">
         <div className="container-fluid">
-          <Link to="/consulting" onClick={toggleNavbar} className="navbar-brand">
-            <img src={logo} alt="Logo" />
+          <Link to="/" onClick={toggleNavbar} className="navbar-brand">
+            <img style={{ height: '50px' }} src={logo} alt="Logo" />
           </Link>
 
           <button
@@ -55,7 +55,7 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <Link
-                  to="#home"
+                  to="/"
                   activeClassName="active"
                   onClick={toggleNavbar}
                   className="nav-link"
@@ -66,67 +66,31 @@ const Navbar = () => {
 
               <li className="nav-item">
                 <Link
-                  to="#features"
+                  to="/what-we-do"
                   activeClassName="active"
-                  onClick={toggleNavbar}
                   className="nav-link"
                 >
-                  Features
+                  What We Do
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link
-                  to="#about"
+                  to="/services"
                   activeClassName="active"
-                  onClick={toggleNavbar}
-                  className="nav-link"
-                >
-                  About Us
-                </Link>
-              </li>
-
-              <li className="nav-item">
-                <Link
-                  to="#services"
-                  activeClassName="active"
-                  onClick={toggleNavbar}
                   className="nav-link"
                 >
                   Services
                 </Link>
               </li>
-
-              <li className="nav-item">
-                <Link
-                  to="#portfolio"
-                  activeClassName="active"
-                  onClick={toggleNavbar}
-                  className="nav-link"
-                >
-                  Portfolio
-                </Link>
-              </li>
   
               <li className="nav-item">
                 <Link
-                  to="#team"
+                  to="/about-us"
                   activeClassName="active"
-                  onClick={toggleNavbar}
                   className="nav-link"
                 >
-                  Team
-                </Link>
-              </li>
-
-              <li className="nav-item">
-                <Link
-                  to="#blog"
-                  activeClassName="active"
-                  onClick={toggleNavbar}
-                  className="nav-link"
-                >
-                  Blog
+                  About Us
                 </Link>
               </li>
             </ul>

@@ -26,47 +26,15 @@ const AboutContent = () => {
             <div className="col-lg-7 col-md-12">
               <div className="about-content">
                 <div className="about-title">
-                  <h2>About Us</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
-                  </p>
-                </div>
-                <div className="about-text">
-                  <h4>Who We Are</h4>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis..
-                  </p>
-                </div>
-                <div className="about-text">
-                  <h4>Our History</h4>
-                  <p>
-                    But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the.
-                  </p>
-                </div>
-                <div className="about-text">
-                  <h4>Our Mission</h4>
-                  <ul>
-                    <li>
-                      <i className="pe-7s-check"></i>Lorem Ipsum is simply dummy
-                      text of the printing and typesetting industry.
-                    </li>
-                    <li>
-                      <i className="pe-7s-check"></i>It is a long established fact
-                      that a reader will be distracted by the readable content
-                      of a page when looking at its layout.
-                    </li>
-                    <li>
-                      <i className="pe-7s-check"></i>Contrary to popular belief,
-                      Lorem Ipsum is not simply random text. It has roots in a
-                      piece of classNameical Latin literature.
-                    </li>
-                  </ul>
+                  <h2>What we do</h2>
+  <p>At JettyDevs, we believe in bridging the gap between technology and business by leveraging our expertise in software development and business strategy. We are a team of dedicated professionals committed to delivering innovative solutions that help our clients achieve their goals. With a focus on quality and customer satisfaction, we strive to create lasting partnerships that drive business success.</p>
+  <ul>
+    <li style={{marginBottom: '10px'}}>We provide custom web and mobile development services using the latest technologies such as React, Node.js, and React Native.</li>
+    <li style={{marginBottom: '10px'}}>We specialize in app optimization and maintenance to ensure your product is always running smoothly.</li>
+    <li style={{marginBottom: '10px'}}>Our Agile software consulting and guidance helps ensure the success of your project from start to finish.</li>
+    <li style={{marginBottom: '10px'}}>We offer software consulting and guidance to help you streamline your business processes and improve your bottom line.</li>
+    <li style={{marginBottom: '10px'}}>Our team of experienced professionals is dedicated to providing you with the highest level of customer service and support.</li>
+  </ul>
                 </div>
               </div>
             </div>

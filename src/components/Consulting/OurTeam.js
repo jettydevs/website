@@ -1,17 +1,16 @@
 import * as React from "react"
 
-import teamImg1 from "../../images/team/team-8.jpg"
-import teamImg2 from "../../images/team/team-9.jpg"
-import teamImg3 from "../../images/team/team-10.jpg"
+import walter from "../../images/team/walter.png"
+import jose from "../../images/team/jose.png"
 
 const OurTeam = () => {
   return (
     <>
-      <div id="team" className="consulting-team-area bg-color-f9f5f4 pb-70">
+      <div id="about-us" className="consulting-team-area bg-color-f9f5f4 ptb-100">
         <div className="container">
           <div className="consulting-section-title">
-            <span>Our Team</span>
-            <h2>Meet Our Professional Experts Team Members</h2>
+            <span>ABOUT US</span>
+            <h2>Meet Our Co-Founders</h2>
           </div>
 
           <div className="row justify-content-center">
@@ -23,14 +22,14 @@ const OurTeam = () => {
               data-aos-once="true"
             >
               <div className="consulting-team-card">
-                <img src={teamImg1} alt="Image" />
+                <img src={walter} alt="Walter" />
                 <div className="team-content">
-                  <h3>Budimir Damien</h3>
-                  <p>CEO & Founder</p>
+                  <h3>Walter Zalazar</h3>
+                  <p>Co-Founder</p>
                 </div>
                 <div className="social-links">
                   <ul>
-                    <li>
+                    {/* <li>
                       <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
                         <i className="flaticon-facebook-1"></i>
                       </a>
@@ -44,9 +43,9 @@ const OurTeam = () => {
                       <a href="https://google.com" target="_blank" rel="noreferrer">
                         <i className="flaticon-google-plus"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="https://linkedin.com/?lang=en" target="_blank" rel="noreferrer">
+                      <a href="https://www.linkedin.com/in/wzalazar/" target="_blank" rel="noreferrer">
                         <i className="flaticon-linkedin-1"></i>
                       </a>
                     </li>
@@ -63,14 +62,14 @@ const OurTeam = () => {
               data-aos-once="true"
             >
               <div className="consulting-team-card">
-                <img src={teamImg2} alt="Image" />
+                <img src={jose} alt="Jose" />
                 <div className="team-content">
-                  <h3>Evgeny Gerasim</h3>
-                  <p>Business Developer</p>
+                  <h3>José Casella</h3>
+                  <p>Co-Founder</p>
                 </div>
                 <div className="social-links">
                   <ul>
-                    <li>
+                    {/* <li>
                       <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
                         <i className="flaticon-facebook-1"></i>
                       </a>
@@ -84,9 +83,9 @@ const OurTeam = () => {
                       <a href="https://google.com" target="_blank" rel="noreferrer">
                         <i className="flaticon-google-plus"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="https://linkedin.com/?lang=en" target="_blank" rel="noreferrer">
+                      <a href="https://www.linkedin.com/in/jose-luis-casella-b48b0a108/" target="_blank" rel="noreferrer">
                         <i className="flaticon-linkedin-1"></i>
                       </a>
                     </li>
@@ -95,45 +94,6 @@ const OurTeam = () => {
               </div>
             </div>
 
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="600"
-              data-aos-once="true"
-            >
-              <div className="consulting-team-card">
-                <img src={teamImg3} alt="Image" />
-                <div className="team-content">
-                  <h3>Roman Veniamin</h3>
-                  <p>Business Consultant</p>
-                </div>
-                <div className="social-links">
-                  <ul>
-                    <li>
-                      <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
-                        <i className="flaticon-facebook-1"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
-                        <i className="flaticon-twitter-3"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://google.com" target="_blank" rel="noreferrer">
-                        <i className="flaticon-google-plus"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://linkedin.com/?lang=en" target="_blank" rel="noreferrer">
-                        <i className="flaticon-linkedin-1"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

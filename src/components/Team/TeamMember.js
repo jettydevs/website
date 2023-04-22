@@ -1,11 +1,7 @@
 import * as React from "react"
 
-import teamImg1 from "../../images/team/team-8.jpg"
-import teamImg2 from "../../images/team/team-9.jpg"
-import teamImg3 from "../../images/team/team-10.jpg"
-import teamImg4 from "../../images/team/team-17.jpg"
-import teamImg5 from "../../images/team/team-18.jpg"
-import teamImg6 from "../../images/team/team-19.jpg"
+import walter from "../../images/team/walter.png"
+import jose from "../../images/team/jose.png"
 
 const TeamMember = () => {
   return (
@@ -19,14 +15,14 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6">
               <div className="currency-team-card">
                 <div className="team-image">
-                  <img src={teamImg1} alt="Image" />
+                  <img src={walter} alt="Walter" />
                 </div>
                 <div className="team-content">
-                  <h3>Oliver Jack</h3>
-                  <span>CEO & Founder</span>
+                  <h3>Walter Zalazar</h3>
+                  <p>Co-Founder</p>
                   <div className="social-links">
                     <ul>
-                      <li>
+                      {/* <li>
                         <a
                           href="https://www.facebook.com"
                           target="_blank"
@@ -52,10 +48,10 @@ const TeamMember = () => {
                         >
                           <i className="flaticon-google-plus"></i>
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a
-                          href="https://linkedin.com/?lang=en"
+                          href="https://www.linkedin.com/in/wzalazar/"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -71,14 +67,14 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6">
               <div className="currency-team-card">
                 <div className="team-image">
-                  <img src={teamImg2} alt="Image" />
+                  <img src={jose} alt="Jose" />
                 </div>
                 <div className="team-content">
-                  <h3>Harry Jacob</h3>
-                  <span>Senior Developer</span>
+                  <h3>José Casella</h3>
+                  <p>Co-Founder</p>
                   <div className="social-links">
                     <ul>
-                      <li>
+                      {/* <li>
                         <a
                           href="https://www.facebook.com"
                           target="_blank"
@@ -104,10 +100,10 @@ const TeamMember = () => {
                         >
                           <i className="flaticon-google-plus"></i>
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a
-                          href="https://linkedin.com/?lang=en"
+                          href="https://www.linkedin.com/in/jose-luis-casella-b48b0a108/"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -120,7 +116,7 @@ const TeamMember = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            {/* <div className="col-lg-4 col-md-6">
               <div className="currency-team-card">
                 <div className="team-image">
                   <img src={teamImg3} alt="Image" />
@@ -274,59 +270,7 @@ const TeamMember = () => {
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="currency-team-card">
-                <div className="team-image">
-                  <img src={teamImg6} alt="Image" />
-                </div>
-                <div className="team-content">
-                  <h3>Smith Jones</h3>
-                  <span>Angular Developer</span>
-                  <div className="social-links">
-                    <ul>
-                      <li>
-                        <a
-                          href="https://www.facebook.com"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <i className="flaticon-facebook-1"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.twitter.com"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <i className="flaticon-twitter-3"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://google.com"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <i className="flaticon-google-plus"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://linkedin.com/?lang=en"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <i className="flaticon-linkedin-1"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

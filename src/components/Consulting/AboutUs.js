@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import aboutImg from "../../images/about/about-img-2.jpg"
 import smileIcon from "../../images/svg-icon/icon-4.png"
-import aboutImg3 from "../../images/about/about-img-3.png"
+import walterMini from "../../images/about/walter-mini.png"
 
 import shape1 from "../../images/about/about-shape-1.png"
 import shape2 from "../../images/about/about-shape-2.png"
@@ -13,7 +13,7 @@ const AboutUs = () => {
   return (
     <>
       <div 
-        id="about" 
+        id="what-we-do" 
         className="consulting-about-area bg-color-f9f5f4 ptb-100"
       >
         <div className="container">
@@ -28,7 +28,7 @@ const AboutUs = () => {
                 <div className="customer">
                   <div className="customer-content">
                     <img src={smileIcon} alt="Image" />
-                    <h1>+560</h1>
+                    <h1>+56</h1>
                     <p>Happy Customer</p>
                   </div>
                 </div>
@@ -44,35 +44,32 @@ const AboutUs = () => {
             <div className="col-lg-6">
               <div className="consulting-about-content pl-20">
                 <div className="consulting-about-title">
-                  <span>ABOUT US</span>
+                  <span>WHAT WE DO</span>
                   <h2>We Combine Technology With Business Ideas</h2>
                 </div>
                 <p>
-                  Facilisis vestibulum aliquet vulputate ut pretium. className
-                  luctus torquent amet bibendum quisque himenaeos. Parturient
-                  malesuada dui accumsan monte tempor augue curae amet per
-                  pretium. className luctus torque.
+                At JettyDevs, we believe in bridging the gap between technology and business by leveraging our expertise in software development and business strategy. We are a team of dedicated professionals committed to delivering innovative solutions that help our clients achieve their goals. With a focus on quality and customer satisfaction, we strive to create lasting partnerships that drive business success.
                 </p>
 
                 <div className="about-profile">
                   <div className="img">
                     <img
-                      src={aboutImg3}
+                      src={walterMini}
                       alt="Image"
                     />
                   </div>
-                  <h3>Ahel Natasha</h3>
-                  <p>Chairman & Founder Klane</p>
+                  <h3>Walter Zalazar</h3>
+                  <p>Co-Founder JettyDevs</p>
                 </div>
 
-                <Link to="/about-us" className="consulting-default-btn btn">
+                {/* <Link to="/about-us" className="consulting-default-btn btn">
                   Discover More <i className="flaticon-right-arrow-3"></i>
                 </Link>
 
                 <Link to="#team" className="download-btn">
                   Download Our Latest Presentation{" "}
                   <i className="flaticon-downloading"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

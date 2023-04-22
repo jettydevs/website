@@ -2,8 +2,8 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import logo from "../../images/logo/logo.svg"
-import AngelListIcon from "./assets/AngelListIcon"
-import CrunchbaseIcon from "./assets/CrunchbaseIcon"
+// import AngelListIcon from "./assets/AngelListIcon"
+// import CrunchbaseIcon from "./assets/CrunchbaseIcon"
 
 const Footer = () => {
   return (
@@ -40,7 +40,7 @@ const Footer = () => {
                         <i className="flaticon-linkedin-1"></i>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="https://www.crunchbase.com"
                         target="_blank"
@@ -57,7 +57,7 @@ const Footer = () => {
                       >
                         <AngelListIcon />
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

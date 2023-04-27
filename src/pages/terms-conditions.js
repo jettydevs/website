@@ -1,25 +1,21 @@
 import * as React from "react"
+
 import Layout from "../components/Layout/layout"
 import Seo from "../components/Layout/seo"
-import Navbar from "../components/TermsConditions/Navbar"
-import PageTitle from "../components/TermsConditions/PageTitle"
-import Footer from "../components/TermsConditions/Footer"
-import TermsConditionsContent from "../components/TermsConditions/TermsConditionsContent"
+
+import Navbar from "../components/Navbar"
+import PageTitle from "../components/PageTitle"
+import TermsConditionsContent from "../components/TermsConditionsContent"
+import Footer from "../components/Footer"
   
 const TermsConditions = () => {
   return (
     <Layout>
-
       <Seo title="Terms & Conditions" />
-
       <Navbar />
-
-      <PageTitle />
- 
+      <PageTitle title={'Terms & Conditions'} />
       <TermsConditionsContent />
-
       <Footer />
-
     </Layout>
   )
 }

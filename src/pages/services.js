@@ -1,25 +1,20 @@
 import * as React from "react"
 import Layout from "../components/Layout/layout"
 import Seo from "../components/Layout/seo"
-import Navbar from "../components/Services/Navbar"
-import PageTitle from "../components/Services/PageTitle"
-import Footer from "../components/Services/Footer" 
-import ServicesItems from "../components/Services/ServicesItems"
+
+import ServicesItems from "../components/ServicesItems"
+import Navbar from "../components/Navbar"
+import PageTitle from "../components/PageTitle"
+import Footer from "../components/Footer" 
 
 const Services = () => {
   return (
     <Layout>
-
       <Seo title="Services" />
-
       <Navbar />
-
-      <PageTitle />
-
+      <PageTitle title={'Services'} />
       <ServicesItems />
-    
       <Footer />
-
     </Layout>
   )
 }

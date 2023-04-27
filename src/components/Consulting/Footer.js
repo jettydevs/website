@@ -113,8 +113,8 @@ const Footer = () => {
                 <h3>Get In Touch</h3>
                 <ul>
                   <li>
-                    <a href="tel:+12023459999">
-                      <i className="flaticon-phone-call-2"></i> +12023459999
+                    <a href="tel:+1 650 5187322">
+                      <i className="flaticon-phone-call-2"></i> +1 650 5187322
                     </a>
                   </li>
                   <li>

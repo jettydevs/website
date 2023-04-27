@@ -10,14 +10,14 @@ const ContactInfo = () => {
             <div className="col-md-4">
               <div className="contact-info-card">
                 <i className="ri-smartphone-line"></i>
-                <p><a href="tel:+12023459999">+12023459999</a></p>
+                <p><a href="tel:+1 650 5187322">+1 650 5187322</a></p>
               </div>
             </div>
 
             <div className="col-md-4">
               <div className="contact-info-card">
                 <i className="ri-mail-line"></i>
-                <p><a href="mailto:+12023459999">support@klane.com</a></p>
+                <p><a href="mailto:hi@jettydevs.com">hi@jettydevs.com</a></p>
               </div>
             </div>
 

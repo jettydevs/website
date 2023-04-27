@@ -12,6 +12,12 @@ const TeamMember = () => {
       >
         <div className="container">
           <div className="row justify-content-center">
+          <div className="col-lg-12 col-md-12 pb-70">
+              <p>JettyDevs is a development company dedicated to delivering cutting-edge solutions worldwide. As part of our expansion strategy, we are actively working towards establishing a strong presence in the United States. Our goal is to bring our innovative services to businesses in the U.S. market.</p>
+              <p>With a client-centric approach and a focus on bridging technology and business, we empower businesses to thrive. Our team of experts is committed to delivering exceptional results and exceeding client expectations. We are driven by a passion for helping businesses succeed by leveraging the power of technology.</p>
+              <p>While we currently do not have clients in the United States, we are excited to develop and grow our business in this market. We are actively seeking partnerships and opportunities to collaborate with businesses in the United States, with the aim of providing them with our top-notch services and solutions. </p>
+              <p>Trust JettyDevs to be your strategic technology partner and unlock your business's full potential. Contact us today to discuss how we can help you achieve your goals in the United States and beyond.              </p>
+            </div>
             <div className="col-lg-4 col-md-6">
               <div className="currency-team-card">
                 <div className="team-image">
@@ -115,6 +121,7 @@ const TeamMember = () => {
                 </div>
               </div>
             </div>
+      
 
             {/* <div className="col-lg-4 col-md-6">
               <div className="currency-team-card">

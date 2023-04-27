@@ -24,7 +24,7 @@ const ContactInfo = () => {
             <div className="col-md-4">
               <div className="contact-info-card">
                 <i className="ri-map-pin-2-fill"></i>
-                <p><a href="#" target="_blank" rel="noreferrer">3004 3rd Ln, Los Angeles, California, 11</a></p>
+                <p><a href="#" target="_blank" rel="noreferrer">30 N Gould St Ste N Sheridan, WY 82801</a></p>
               </div>
             </div>
           </div>

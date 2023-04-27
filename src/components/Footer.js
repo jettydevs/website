@@ -127,7 +127,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="flaticon-map-1"></i>
-                    <p>3004 3rd Ln, Los Angeles, California, 11</p>
+                    <p>30 N Gould St Ste N Sheridan, WY 82801</p>
                   </li>
                 </ul>
               </div>

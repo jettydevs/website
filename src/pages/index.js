@@ -1,27 +1,22 @@
 import * as React from "react"
 import Layout from "../components/Layout/layout"
 import Seo from "../components/Layout/seo"
-import Navbar from "../components/Consulting/Navbar"
-import MainBanner from "../components/Consulting/MainBanner"
-import Partner from "../components/Consulting/Partner"
-import Features from "../components/Consulting/Features"
-import AboutUs from "../components/Consulting/AboutUs"
-import Services from "../components/Consulting/Services"
-import WhyChooseUs from "../components/Consulting/WhyChooseUs"
-import RecentProjects from "../components/Consulting/RecentProjects"
-import GetAQuote from "../components/Consulting/GetAQuote"
-import OurTeam from "../components/Consulting/OurTeam"
-import Testimonials from "../components/Consulting/Testimonials"
-import Newsletter from "../components/Consulting/Newsletter"
-import LatestArticles from "../components/Consulting/LatestArticles"
-import Footer from "../components/Consulting/Footer"
-import ContactForm from "../components/Consulting/ContactForm"
+
+import Navbar from "../components/Navbar"
+import MainBanner from "../components/MainBanner"
+import Partner from "../components/Partner"
+import Features from "../components/Features"
+import AboutUs from "../components/AboutUs"
+import Services from "../components/Services"
+import OurTeam from "../components/OurTeam"
+import Newsletter from "../components/Newsletter"
+import ContactForm from "../components/ContactForm"
+import Footer from "../components/Footer"
 
 const Consulting = () => {
   return (
     <Layout>
       <Seo title="Software Development Agency"  />
-
       <Navbar />
       <MainBanner />
       <Partner />

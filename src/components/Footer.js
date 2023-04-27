@@ -2,11 +2,15 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import logo from "../images/logo/logo.svg"
+import visa from "../images/payments/visa_icon.svg"
+import master from "../images/payments/mastercard_icon.svg"
+import stripe from "../images/payments/stripe_icon.svg"
+import bank from "../images/payments/bank_transfer_icon.svg"
 
 const Footer = () => {
   return (
     <>
-      <div className="agency-footer-area bg-color-f9f5f4 pt-100 pb-70">
+      <div className="agency-footer-area bg-color-f9f5f4 pt-100">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-sm-6">
@@ -134,6 +138,10 @@ const Footer = () => {
 
       <div className="copy-right-area style4 bg-color-f9f5f4">
         <div className="container">
+        <img src={visa} className="logo-1" alt="Image" style={{ height: '50px', marginBottom: '13px' }}/>
+        <img src={master} className="logo-1" alt="Image" style={{ height: '50px', marginBottom: '13px', marginLeft: '20px' }}/>
+        <img src={stripe} className="logo-1" alt="Image" style={{ height: '50px', marginBottom: '13px',  marginLeft: '20px' }}/>
+        <img src={bank} className="logo-1" alt="Image" style={{ height: '50px', marginBottom: '13px',  marginLeft: '20px' }}/>
           <p>
             ©JettyDevs LLC - 2023
           </p>

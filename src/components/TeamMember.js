@@ -23,6 +23,50 @@ const TeamMember = () => {
                 <div className="team-image">
                   <img src={walter} alt="Walter" />
                 </div>
+                <div className="team-content">
+                  <h3>Walter Zalazar</h3>
+                  <p>Co-Founder</p>
+                  <div className="social-links">
+                    <ul>
+                      {/* <li>
+                        <a
+                          href="https://www.facebook.com"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="flaticon-facebook-1"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.twitter.com"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="flaticon-twitter-3"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://google.com"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="flaticon-google-plus"></i>
+                        </a>
+                      </li> */}
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/in/wzalazar/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <i className="flaticon-linkedin-1"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
 

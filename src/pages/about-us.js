@@ -5,7 +5,6 @@ import Seo from "../components/Layout/seo"
 
 import Navbar from "../components/Navbar"
 import PageTitle from "../components/PageTitle"
-import TeamMember from "../components/TeamMember"
 import Footer from "../components/Footer"
 
 const Team = () => {
@@ -14,7 +13,6 @@ const Team = () => {
       <Seo title="About Us" />
       <Navbar />
       <PageTitle title={'About Us'} />
-      <TeamMember />
       <Footer />
     </Layout>
   )

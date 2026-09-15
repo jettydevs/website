@@ -2,7 +2,6 @@ import * as React from "react"
 
 import smileIcon from "../images/svg-icon/icon-4.png"
 
-import walterMini from "../images/about/walter-mini.png"
 import aboutImg from "../images/about/about-img-2.jpg"
 import shape1 from "../images/about/about-shape-1.png"
 import shape2 from "../images/about/about-shape-2.png"
@@ -49,17 +48,6 @@ const AboutUs = () => {
                 <p>
                 At JettyDevs, we believe in bridging the gap between technology and business by leveraging our expertise in software development and business strategy. We are a team of dedicated professionals committed to delivering innovative solutions that help our clients achieve their goals. With a focus on quality and customer satisfaction, we strive to create lasting partnerships that drive business success.
                 </p>
-
-                <div className="about-profile">
-                  <div className="img">
-                    <img
-                      src={walterMini}
-                      alt="Image"
-                    />
-                  </div>
-                  <h3>Walter Zalazar</h3>
-                  <p>Co-Founder JettyDevs</p>
-                </div>
 
                 {/* <Link to="/about-us" className="consulting-default-btn btn">
                   Discover More <i className="flaticon-right-arrow-3"></i>
